@@ -1,3 +1,6 @@
+-- criacao to banco de dados em sí
+CREATE DATABASE supermercado;
+
 --
 -- criação da tabela customer
 --
