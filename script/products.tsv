@@ -1,0 +1,152 @@
+id	category	subcategory	name	price	brand
+	bebidas	refrigerantes	Coca-Cola 2L	6,54	Coca-Cola
+	bebidas	refrigerantes	Fanta Uva 3L		Fanta
+	bebidas	refrigerantes	Pepsi Sabor Limão 1,5L		Pepsi
+	bebidas	refrigerantes	Coca-Cola Latinha 350ml		Coca-Cola
+	bebidas	refrigerantes	Schweeps Sabor Limão Latinha 350ml		Schweeps
+	bebidas	alcoolicos	Heineken Latinha 6 Unidades		Heineken
+	bebidas	alcoolicos	Heineken Latinha 1 Unidade		Heineken
+	bebidas	alcoolicos	Vodka Balalaika 750ml 		Balalaika
+	bebidas	alcoolicos	Vodka Absolut Cytron 750ml		Absolut
+	bebidas	alcoolicos	Vodka Absolut Vanilla 750ml		Absolut
+	bebidas	alcoolicos	Vodka Absolut Rasberry 750ml		Absolut
+	bebidas	alcoolicos	Vodka Absolut 1L		Absolut
+	bebidas	alcoolicos	Vodka Absolut 750g		Absolut
+	bebidas	alcoolicos	Vodka Absolut Extrakt 750g		Absolut
+	bebidas	alcoolicos	Bourbon Jack Daniels 1L		Jack Daniels
+	bebidas	alcoolicos	Antartica Original 1,5L		Antartica
+	bebidas	alcoolicos	Antartica Original Latinha 1 Unidade		Antartica
+	bebidas	alcoolicos	Smirnoff Ice 6 Unidades		Smirnoff
+	bebidas	alcoolicos	Brahma Latinha 350ml		Brahma
+	bebidas	alcoolicos	Cognac Domeqo 800ml		Domeqo
+	bebidas	sucos	Del Valle sabor Morango 1.5L		Del Valle
+	bebidas	sucos	Agua de Coco QueroCoco 1.5L		QueroCoco
+	bebidas	sucos	Tang sabor Uva Sache		Tang
+	bebidas	sucos	Tang sabor Morango Sache		Tang
+	bebidas	sucos	Tang sabor LImão Sache		Tang
+	bebidas	sucos	Tang sabor Tangerina Sache		Tang
+	bebidas	sucos	Suco de Uva Orgânico Goes 2L		Vinicola Goes
+	carnes	boi	Picanha Friboi 1Kg		Friboi
+	carnes	boi	Costela Bovina JBS 2Kg		JBS
+	carnes	porco	Lombo Bovino 800g Sadia		Sadia
+	carnes	peixe	Salmão Canadense em Peça 1Kg		
+	carnes	peixe	Salmão Canadense em Pedaços 500g		
+	carnes	frango	Assas de Frango Sem Pele Sadia 1 Kg		Sadia
+	cereais	massas	Macarrão Instantâneo Nisson Lamen sabor Galinha Caipira		Nissin Lamen
+	cereais	massas	Espaguete Barilla n9 500g		Barilla
+	cereais	massas	Linguini Renata 1Kg		Renata
+	cereais	massas	Lasagna Tradicional Renata 500g		Renata
+	cereais	massas	Ravioli Artesanal Renata 500Kg		Renata
+	cereais	paes	Bisnaguinha Panco 300g		Panco
+	cereais	paes	Pão de Forma Pullman		Pullman
+	cereais	paes	Pao de Forma Integral Pullman		Pullman
+	cereais	biscoitos-salgados	Bolacha Água-e-Sal Marilan		Marilan
+	cereais	biscoitos-salgados	Biscoito de Polvilho Nazinha 300g		Nazinha
+	cereais	biscoitos-doces	Bolacha Passa-Tempo sabor Chocolate		Passa-Tempo
+	cereais	biscoitos-doces	Bolacha Passa-Tempo sabor Morango		Passa-Tempo
+	cereais	biscoitos-doces	Bolacha Bono sabor Chocolate		Bono
+	cereais	biscoitos-doces	Bolacha Oreo sabor Chocolate		Oreo
+	cereais	processados	Farinha de Trigo Renata 500g		Renata
+	cereais	processados	Farinha de Trigo Dona Benta 300g		Renata
+	cereais	processados	Farinha de Mandioca Deusa 300g		Deusa
+	cereais	cereais-basicos	Feijão Broto-Legal 1kg		Broto-Legal
+	cereais	cereais-basicos	Arroz Tio João 5Kg		Tio-João
+	cereais	cereais-basicos	Grão de Bico Broto-Legal 2Kg		Broto-Legal
+	cereais	cereais-basicos	Arroz Integral Tio-João 1Kg		Tio-João
+	congelados	carnes-congeladas	Assas de Frango Congeladas Sadia 500kg		Sadia
+	congelados	carnes-congeladas	Coxa e Sobre-Coxa de Frango Sadia 1Kg		Sadia
+	congelados	carnes-congeladas	Peixe San Peter Congelado SoPesca 800g		SoPesca
+	congelados	massas-congeladas	Lasagna Bolognesa Congelada Seara 400Kg		Seara
+	congelados	massas-congeladas	Lasagna Molho Banco Congelada Sadia 350g		Sadia
+	congelados	massas-congeladas	Lasagna Bolonhesa Congelada Seara 400Kg		Seara
+	congelados	massas-congeladas	Lasagna 4 Queijos Congelada Seara 400Kg		Seara
+	doces		Sorvete Chicabon Pote Kibon 1,8L		Kibon
+	doces		Pacote de Amendoim M&Ms 100g		M&Ms
+	doces		Chiclete Trident Sabor Menta		Trident
+	doces		Chiclete Trident Sabor Melancia		Trident
+	doces		Chiclete Trident Sabor Tutti-Frutti		Trident
+	doces		Bala de Café Arcor 200g		Arcor
+	doces		Bala Dentadura Fini 100g		Fini
+	doces		Barra de Chocolate Branco Nestle		Nestle
+	doces		Chocotone Bauducco Grande		Bauducco
+	doces		Chocolate em Pó Nescau 2.0 300g		Nescau
+	doces		Chocolate em Pó Ovomaltine 300g		Ovomaltine
+	doces		Chocolate em Pó Toddynho 250g		Toddy
+	doces		Barra de Chocolate Branck Galak Nestle 170g		Nestle
+	doces		Barra de Chocolate ao Leite Lacta 200g		Lacta
+	enlatados	condimentos	Sardinha Enlatada Gomes da Costa 150g		Gomes da Costa
+	enlatados	condimentos	Atum Enlatado Gomes da Costa 100g		Gomes da Costa
+	enlatados	pronto-para-comer	Milho Enlatado Fugini 300g		Fugini
+	enlatados	pronto-para-comer	Sopa de Tomate Campbells		Campbells
+	laticinios		Doce de Leite Jussara		Jussara
+	laticinios		Caixa de Leite Desnatado Piracanjuba 1L		Piracanjuba
+	laticinios		Leite Integral Ninho 1L		Ninho
+	laticinios		Leite Integral Italac 500ml		Italac
+	laticinios		Requeijão Tradicional Nestle		Nestle
+	laticinios		Queijo Muçarela Sadia em Peça 2Kg		Sadia
+	laticinios		Achocolatado Toddynho Caixinha 180ml		Toddynho
+	laticinios		Achocolatado Nescau Caixinha 200ml		Nescau
+	laticinios		Queijo Parmesão Ralado Vigor 120g		Vigor
+	laticinios		Requeiição Cremoso Danone		Danone
+	laticinios		Manteiga Aviação sem Sal 200g		Aviação Laticinios
+	laticinios		Queijo Polenguinho 6 Unidades		Polenghi
+	laticinios		Queijo Muçarela Sadia em Fatias 150g		Sadia
+	laticinios		Leite Condensado Moça 405g		Nestle
+	laticinios		Margarina Diriana com Sal 300g		Doriana
+	limpeza	higiene-pessoal	Escova de Dente Oral-B		Oral-B
+	limpeza	higiene-pessoal	Escova de Dente Bitufo		Bitufo
+	limpeza	higiene-pessoal	Pasta de Dente Oral-B		Oral-B
+	limpeza	higiene-pessoal	Pasta de Dente Sabor Morango Oral-B		Oral-B
+	limpeza	higiene-pessoal	Pasta de Dente Sabor Menta Oral-B		Oral-B
+	limpeza	higiene-pessoal	Papel Higiênico Neve Grande		Neve
+	limpeza	higiene-pessoal	Papel Higiênico Neve Extra-Grande		Neve
+	limpeza	higiene-pessoal	Sabonete Dove 6 Unidades		Dove
+	limpeza	limpeza-domestica	Lustra-Moveis Polifor		Poliflor
+	limpeza	limpeza-domestica	Bom Bril 1 Unidade		Bom Bril
+	limpeza	limpeza-domestica	Amaciante de Roupas Ype 2L		Ype
+	limpeza	limpeza-domestica	Amaciante de Roupas Omo 1.5L		Omo
+	limpeza	limpeza-domestica	Detergente Ype 400ml		Ype
+	limpeza	limpeza-pesada	Desentopidor de Pia Diabo Verde		Diabo Verde
+	limpeza	limpeza-pesada	Água Sanitária Ype		Ype
+	outros	elétricos	Lampada LED Phillips 30W		Phillips
+	outros	elétricos	Lampada Neon Phillips 110W		Phillips
+	outros	informatica	Mouse com Fio Logitech M100		Logitech
+	outros	informatica	Kit Teclado e Mouse sem Fio Logitech MK235		Logitech
+	papelaria		Pacote de Folha Sulfite HP Pro 500 Folhas		HP
+	papelaria		Cartucho de Tinta HP		HP
+	papelaria		Pacote de Canetas Bic 3 Unidades		Bic
+	papelaria		Conjunto com 32 Canetinhas Coloridas Faber Castell		Faber Castell
+	papelaria		Lapiseira Pentel 0.7mm		Pentel
+	papelaria		Aquarela Pentel 12 Cores		Pentel
+	papelaria		Pasta Multi-Divisória Trident		Trident Papelaria
+	papelaria		Caderno Universitário 90 Folhas Tilibra		Tilibra
+	papelaria		Caderno Universitário 6 Matérias Tilibra		Tilibra
+	papelaria		Caderno Universitário 12 Matérias Tilibra		Tilibra
+	papelaria		Borracha Pentel Pro		Pentel
+	vegetais	frutas	Maça 1 Unidade		
+	vegetais	frutas	Limão Bugre 1 Unidade		
+	vegetais	frutas	Pera 1 Unidade		
+	vegetais	frutas	Limão Taiti 1 Unidade		
+	vegetais	frutas	Banana Nanica 1 Unidade		
+	vegetais	frutas	Banana Prata 1 Unidade		
+	vegetais	frutas	Banana Maça 1 Unidade		
+	vegetais	frutas	Tomate Italiano 1 Unidade		
+	vegetais	frutas	Tomate 1 Unidade		
+	vegetais	frutas	Meia Melancia 1 Unidade		
+	vegetais	frutas	Melancia Inteira 1 Unidade		
+	vegetais	frutas	Laranja Baiana 1 Unidade		
+	vegetais	frutas	Mamão Papaia 1 Unidade		
+	vegetais	frutas	Abacate 1 Unidade		
+	vegetais	legumes	Cenoura 1 Unidade		
+	vegetais	legumes	Cebola 1 Unidade		
+	vegetais	legumes	Pimentão Verde 1 Unidade		
+	vegetais	legumes	Pimentão Amarelo 1 Unidade		
+	vegetais	legumes	Alcachofra com Casca 1 Unidade		
+	vegetais	legumes	Pimentão Vermelho 1 Unidade		
+	vegetais	legumes	Abobora Inteira 1 Unidade		
+	vegetais	legumes	Abobora em Pedaços 1 Kg		
+	vegetais	legumes	Beterraba 1 Unidade		
+	vegetais	legumes	Batata 1 Unidade		
+	vegetais	legumes	Brocolis Ninja 1 Unidade		
+	vegetais	verduras	Pé de Alface 1 Unidade		
+	vegetais	verduras	Pé de Rucula 1 Unidade		
