@@ -96,7 +96,7 @@ In both circunstances the same code is utilized for both operations and the mean
 of each generated table (a DataFrame object) relies exclusively on the meaning
 assigned by the callee.
 """
-function generate_product_customer_interaction(customers::T, products::T, monthrange) where T <: DataFrame
+function generate_product_customer_interaction(customers::T, products::T, monthrange, recommendation::Bool) where T <: DataFrame
     interactions = DataFrame(
         cpf = Vector{Int}(),
         id = Vector{Int}(),
@@ -115,8 +115,13 @@ function generate_product_customer_interaction(customers::T, products::T, monthr
             n_products = trunc(Int, size(products, 1) * rand(0.02:0.01:0.4))
             item_ids_subset = sample(products[:, :id], n_products; replace = false)
             quantity = rand(1:20, n_products) # quantity bought or recommended
-            interaction_dates = rand(firstdayofmonth(month):Day(1):lastdayofmonth(month), n_products)
-            interaction_dates_str = Dates.format.(interaction_dates,"yyyy-mm-dd") # converting to string
+
+            if recommendation
+                interaction_dates_str = Dates.format.(fill(firstdayofmonth(month), n_products) , "yyyy-mm-dd")
+            else
+                interaction_dates = rand(firstdayofmonth(month):Day(1):lastdayofmonth(month), n_products)
+                interaction_dates_str = Dates.format.(interaction_dates,"yyyy-mm-dd") # converting to string
+            end
 
             for tuple in zip(fill(cpf, n_products), item_ids_subset, interaction_dates_str, quantity)
                 push!(interactions, tuple)
@@ -208,10 +213,10 @@ function main()
     CSV.write("./out/categories.csv", categories)
     monthrange = Date(2019, 1, 1):Month(1):Date(2022, 7, 1)
 
-    purchases = generate_product_customer_interaction(customers, products, monthrange)
+    purchases = generate_product_customer_interaction(customers, products, monthrange, false)
     CSV.write("./out/purchases.csv", purchases)
 
-    recommendations = generate_product_customer_interaction(customers, products, monthrange)
+    recommendations = generate_product_customer_interaction(customers, products, monthrange, true)
     CSV.write("./out/recommendations.csv", recommendations)
 
     @info """
