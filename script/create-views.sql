@@ -5,6 +5,7 @@ CREATE OR REPLACE VIEW purchase_info AS (
 		date_part('day', pur."date") AS "day",
 		c.cpf,
 		c."name" AS "customer_name",
+		c.salary_range,
 		pur.quantity,
 		pur.id AS "product_id",
 		prod."name" AS "product_name",
