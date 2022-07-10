@@ -1,152 +1,152 @@
 id,category,name,brand,price
-7672,3231,Coca-Cola 2L,Coca-Cola,6.45
-2778,3231,Fanta Uva 3L,Fanta,117.55
-8885,3231,"Pepsi Sabor Limão 1,5L",Pepsi,256.15
-6632,3231,Coca-Cola Latinha 350ml,Coca-Cola,119.15
-1984,3231,Schweeps Sabor Limão Latinha 350ml,Schweeps,156.25
-5790,8163,Heineken Latinha 6 Unidades,Heineken,264.75
-2937,8163,Heineken Latinha 1 Unidade,Heineken,292.6
-4281,8163,Vodka Balalaika 750ml ,Balalaika,34.9
-3778,8163,Vodka Absolut Cytron 750ml,Absolut,63.5
-7342,8163,Vodka Absolut Vanilla 750ml,Absolut,281.35
-2769,8163,Vodka Absolut Rasberry 750ml,Absolut,249.1
-7718,8163,Vodka Absolut 1L,Absolut,1.0
-3184,8163,Vodka Absolut 750g,Absolut,208.6
-1576,8163,Vodka Absolut Extrakt 750g,Absolut,277.25
-2459,8163,Bourbon Jack Daniels 1L,Jack Daniels,22.3
-5880,8163,"Antartica Original 1,5L",Antartica,277.75
-3028,8163,Antartica Original Latinha 1 Unidade,Antartica,296.6
-2942,8163,Smirnoff Ice 6 Unidades,Smirnoff,79.0
-3798,8163,Brahma Latinha 350ml,Brahma,119.95
-4229,8163,Cognac Domeqo 800ml,Domeqo,216.9
-4027,5199,Del Valle sabor Morango 1.5L,Del Valle,112.9
-8590,5199,Agua de Coco QueroCoco 1.5L,QueroCoco,128.15
-4113,5199,Tang sabor Uva Sache,Tang,7.75
-2258,5199,Tang sabor Morango Sache,Tang,206.55
-6032,5199,Tang sabor LImão Sache,Tang,143.5
-4500,5199,Tang sabor Tangerina Sache,Tang,227.55
-1681,5199,Suco de Uva Orgânico Goes 2L,Vinicola Goes,125.0
-3331,9060,Picanha Friboi 1Kg,Friboi,51.95
-7529,9060,Costela Bovina JBS 2Kg,JBS,283.8
-4666,276,Lombo Bovino 800g Sadia,Sadia,252.65
-4033,9940,Salmão Canadense em Peça 1Kg,,123.35
-6466,9940,Salmão Canadense em Pedaços 500g,,100.85
-4370,7344,Assas de Frango Sem Pele Sadia 1 Kg,Sadia,71.6
-6753,6823,Macarrão Instantâneo Nisson Lamen sabor Galinha Caipira,Nissin Lamen,287.9
-2674,6823,Espaguete Barilla n9 500g,Barilla,183.85
-7048,6823,Linguini Renata 1Kg,Renata,58.2
-8094,6823,Lasagna Tradicional Renata 500g,Renata,58.35
-2228,6823,Ravioli Artesanal Renata 500Kg,Renata,147.95
-3584,1173,Bisnaguinha Panco 300g,Panco,12.1
-6822,1173,Pão de Forma Pullman,Pullman,242.8
-8696,1173,Pao de Forma Integral Pullman,Pullman,275.3
-4495,9322,Bolacha Água-e-Sal Marilan,Marilan,92.35
-4243,9322,Biscoito de Polvilho Nazinha 300g,Nazinha,31.65
-8950,2260,Bolacha Passa-Tempo sabor Chocolate,Passa-Tempo,246.85
-7760,2260,Bolacha Passa-Tempo sabor Morango,Passa-Tempo,156.0
-7258,2260,Bolacha Bono sabor Chocolate,Bono,297.6
-5651,2260,Bolacha Oreo sabor Chocolate,Oreo,32.65
-1409,8096,Farinha de Trigo Renata 500g,Renata,153.7
-8107,8096,Farinha de Trigo Dona Benta 300g,Renata,28.3
-4032,8096,Farinha de Mandioca Deusa 300g,Deusa,115.95
-3515,4164,Feijão Broto-Legal 1kg,Broto-Legal,221.0
-2500,4164,Arroz Tio João 5Kg,Tio-João,257.1
-6156,4164,Grão de Bico Broto-Legal 2Kg,Broto-Legal,13.3
-3016,4164,Arroz Integral Tio-João 1Kg,Tio-João,296.2
-5622,6992,Assas de Frango Congeladas Sadia 500kg,Sadia,178.45
-4343,6992,Coxa e Sobre-Coxa de Frango Sadia 1Kg,Sadia,167.5
-7584,6992,Peixe San Peter Congelado SoPesca 800g,SoPesca,169.7
-2036,2010,Lasagna Bolognesa Congelada Seara 400Kg,Seara,203.85
-2445,2010,Lasagna Molho Banco Congelada Sadia 350g,Sadia,284.35
-3527,2010,Lasagna Bolonhesa Congelada Seara 400Kg,Seara,145.1
-6896,2010,Lasagna 4 Queijos Congelada Seara 400Kg,Seara,36.5
-8509,9798,"Sorvete Chicabon Pote Kibon 1,8L",Kibon,112.4
-3473,9798,Pacote de Amendoim M&Ms 100g,M&Ms,29.65
-1783,9798,Chiclete Trident Sabor Menta,Trident,150.15
-7553,9798,Chiclete Trident Sabor Melancia,Trident,266.05
-8904,9798,Chiclete Trident Sabor Tutti-Frutti,Trident,129.65
-1280,9798,Bala de Café Arcor 200g,Arcor,168.55
-1935,9798,Bala Dentadura Fini 100g,Fini,35.15
-1476,9798,Barra de Chocolate Branco Nestle,Nestle,55.05
-1395,9798,Chocotone Bauducco Grande,Bauducco,269.35
-3462,9798,Chocolate em Pó Nescau 2.0 300g,Nescau,275.65
-6264,9798,Chocolate em Pó Ovomaltine 300g,Ovomaltine,119.25
-1810,9798,Chocolate em Pó Toddynho 250g,Toddy,34.65
-2550,9798,Barra de Chocolate Branck Galak Nestle 170g,Nestle,90.15
-7683,9798,Barra de Chocolate ao Leite Lacta 200g,Lacta,82.45
-2173,4103,Sardinha Enlatada Gomes da Costa 150g,Gomes da Costa,67.65
-6442,4103,Atum Enlatado Gomes da Costa 100g,Gomes da Costa,247.1
-4572,1978,Milho Enlatado Fugini 300g,Fugini,176.75
-4798,1978,Sopa de Tomate Campbells,Campbells,264.3
-7168,65,Doce de Leite Jussara,Jussara,240.95
-6193,65,Caixa de Leite Desnatado Piracanjuba 1L,Piracanjuba,276.1
-4900,65,Leite Integral Ninho 1L,Ninho,113.4
-8397,65,Leite Integral Italac 500ml,Italac,17.35
-6067,65,Requeijão Tradicional Nestle,Nestle,140.9
-3923,65,Queijo Muçarela Sadia em Peça 2Kg,Sadia,68.75
-8784,65,Achocolatado Toddynho Caixinha 180ml,Toddynho,112.3
-7980,65,Achocolatado Nescau Caixinha 200ml,Nescau,267.55
-4188,65,Queijo Parmesão Ralado Vigor 120g,Vigor,290.3
-7409,65,Requeiição Cremoso Danone,Danone,18.6
-8416,65,Manteiga Aviação sem Sal 200g,Aviação Laticinios,81.4
-6529,65,Queijo Polenguinho 6 Unidades,Polenghi,57.25
-8285,65,Queijo Muçarela Sadia em Fatias 150g,Sadia,128.8
-4565,65,Leite Condensado Moça 405g,Nestle,45.1
-1260,65,Margarina Diriana com Sal 300g,Doriana,179.45
-4241,396,Escova de Dente Oral-B,Oral-B,14.5
-2682,396,Escova de Dente Bitufo,Bitufo,208.75
-6787,396,Pasta de Dente Oral-B,Oral-B,74.2
-4927,396,Pasta de Dente Sabor Morango Oral-B,Oral-B,192.15
-5758,396,Pasta de Dente Sabor Menta Oral-B,Oral-B,129.0
-5460,396,Papel Higiênico Neve Grande,Neve,245.25
-3044,396,Papel Higiênico Neve Extra-Grande,Neve,65.3
-3723,396,Sabonete Dove 6 Unidades,Dove,219.65
-7133,5642,Lustra-Moveis Polifor,Poliflor,118.0
-3830,5642,Bom Bril 1 Unidade,Bom Bril,39.6
-2046,5642,Amaciante de Roupas Ype 2L,Ype,167.3
-4046,5642,Amaciante de Roupas Omo 1.5L,Omo,105.35
-6933,5642,Detergente Ype 400ml,Ype,97.9
-1162,7853,Desentopidor de Pia Diabo Verde,Diabo Verde,240.15
-8179,7853,Água Sanitária Ype,Ype,95.7
-1717,4298,Lampada LED Phillips 30W,Phillips,109.55
-1748,4298,Lampada Neon Phillips 110W,Phillips,168.85
-8666,5474,Mouse com Fio Logitech M100,Logitech,189.65
-6342,5474,Kit Teclado e Mouse sem Fio Logitech MK235,Logitech,129.2
-7279,3911,Pacote de Folha Sulfite HP Pro 500 Folhas,HP,39.5
-7629,3911,Cartucho de Tinta HP,HP,232.25
-5314,3911,Pacote de Canetas Bic 3 Unidades,Bic,133.3
-2238,3911,Conjunto com 32 Canetinhas Coloridas Faber Castell,Faber Castell,260.3
-7452,3911,Lapiseira Pentel 0.7mm,Pentel,156.75
-7262,3911,Aquarela Pentel 12 Cores,Pentel,261.2
-6860,3911,Pasta Multi-Divisória Trident,Trident Papelaria,112.65
-7751,3911,Caderno Universitário 90 Folhas Tilibra,Tilibra,189.15
-8347,3911,Caderno Universitário 6 Matérias Tilibra,Tilibra,11.2
-4145,3911,Caderno Universitário 12 Matérias Tilibra,Tilibra,123.75
-7164,3911,Borracha Pentel Pro,Pentel,23.75
-3795,2516,Maça 1 Unidade,,226.6
-8500,2516,Limão Bugre 1 Unidade,,64.35
-8132,2516,Pera 1 Unidade,,103.45
-6012,2516,Limão Taiti 1 Unidade,,288.05
-7031,2516,Banana Nanica 1 Unidade,,238.15
-8321,2516,Banana Prata 1 Unidade,,32.35
-5503,2516,Banana Maça 1 Unidade,,203.95
-8238,2516,Tomate Italiano 1 Unidade,,7.55
-1448,2516,Tomate 1 Unidade,,75.75
-1205,2516,Meia Melancia 1 Unidade,,271.4
-4259,2516,Melancia Inteira 1 Unidade,,156.4
-6149,2516,Laranja Baiana 1 Unidade,,174.5
-3360,2516,Mamão Papaia 1 Unidade,,155.5
-8466,2516,Abacate 1 Unidade,,111.6
-1375,4426,Cenoura 1 Unidade,,260.55
-1728,4426,Cebola 1 Unidade,,286.55
-6208,4426,Pimentão Verde 1 Unidade,,211.4
-5877,4426,Pimentão Amarelo 1 Unidade,,175.05
-3139,4426,Alcachofra com Casca 1 Unidade,,30.55
-7245,4426,Pimentão Vermelho 1 Unidade,,254.1
-4846,4426,Abobora Inteira 1 Unidade,,265.45
-5124,4426,Abobora em Pedaços 1 Kg,,130.5
-1022,4426,Beterraba 1 Unidade,,179.75
-4465,4426,Batata 1 Unidade,,72.15
-1391,4426,Brocolis Ninja 1 Unidade,,180.05
-6052,2211,Pé de Alface 1 Unidade,,195.75
-3864,2211,Pé de Rucula 1 Unidade,,229.9
+5753,9752,Coca-Cola 2L,Coca-Cola,152.0
+8568,9752,Fanta Uva 3L,Fanta,269.55
+5440,9752,"Pepsi Sabor Limão 1,5L",Pepsi,94.1
+1112,9752,Coca-Cola Latinha 350ml,Coca-Cola,107.4
+6216,9752,Schweeps Sabor Limão Latinha 350ml,Schweeps,124.75
+3706,4028,Heineken Latinha 6 Unidades,Heineken,254.35
+8146,4028,Heineken Latinha 1 Unidade,Heineken,65.7
+1348,4028,Vodka Balalaika 750ml ,Balalaika,7.5
+8858,4028,Vodka Absolut Cytron 750ml,Absolut,12.6
+6420,4028,Vodka Absolut Vanilla 750ml,Absolut,119.2
+4341,4028,Vodka Absolut Rasberry 750ml,Absolut,272.55
+5983,4028,Vodka Absolut 1L,Absolut,204.65
+1075,4028,Vodka Absolut 750g,Absolut,214.85
+6517,4028,Vodka Absolut Extrakt 750g,Absolut,230.75
+7452,4028,Bourbon Jack Daniels 1L,Jack Daniels,236.55
+1699,4028,"Antartica Original 1,5L",Antartica,190.0
+8095,4028,Antartica Original Latinha 1 Unidade,Antartica,260.5
+1622,4028,Smirnoff Ice 6 Unidades,Smirnoff,233.05
+2566,4028,Brahma Latinha 350ml,Brahma,85.6
+7852,4028,Cognac Domeqo 800ml,Domeqo,83.95
+6905,5388,Del Valle sabor Morango 1.5L,Del Valle,25.25
+6668,5388,Agua de Coco QueroCoco 1.5L,QueroCoco,150.85
+7283,5388,Tang sabor Uva Sache,Tang,18.9
+3114,5388,Tang sabor Morango Sache,Tang,74.35
+8170,5388,Tang sabor LImão Sache,Tang,177.85
+8517,5388,Tang sabor Tangerina Sache,Tang,101.8
+8430,5388,Suco de Uva Orgânico Goes 2L,Vinicola Goes,176.8
+8527,5408,Picanha Friboi 1Kg,Friboi,294.65
+4742,5408,Costela Bovina JBS 2Kg,JBS,117.2
+3728,6304,Lombo Bovino 800g Sadia,Sadia,176.5
+8276,8767,Salmão Canadense em Peça 1Kg,,12.8
+3501,8767,Salmão Canadense em Pedaços 500g,,265.5
+6424,7579,Assas de Frango Sem Pele Sadia 1 Kg,Sadia,182.05
+2195,1679,Macarrão Instantâneo Nisson Lamen sabor Galinha Caipira,Nissin Lamen,197.85
+8693,1679,Espaguete Barilla n9 500g,Barilla,287.95
+7803,1679,Linguini Renata 1Kg,Renata,69.8
+6429,1679,Lasagna Tradicional Renata 500g,Renata,294.35
+6937,1679,Ravioli Artesanal Renata 500Kg,Renata,169.15
+1772,2333,Bisnaguinha Panco 300g,Panco,84.55
+8732,2333,Pão de Forma Pullman,Pullman,299.05
+4945,2333,Pao de Forma Integral Pullman,Pullman,241.9
+5603,1034,Bolacha Água-e-Sal Marilan,Marilan,159.4
+4604,1034,Biscoito de Polvilho Nazinha 300g,Nazinha,282.3
+7561,7553,Bolacha Passa-Tempo sabor Chocolate,Passa-Tempo,46.9
+3806,7553,Bolacha Passa-Tempo sabor Morango,Passa-Tempo,70.85
+7159,7553,Bolacha Bono sabor Chocolate,Bono,105.4
+6171,7553,Bolacha Oreo sabor Chocolate,Oreo,54.1
+3093,7978,Farinha de Trigo Renata 500g,Renata,270.8
+6746,7978,Farinha de Trigo Dona Benta 300g,Renata,5.7
+8503,7978,Farinha de Mandioca Deusa 300g,Deusa,166.9
+7062,8628,Feijão Broto-Legal 1kg,Broto-Legal,203.9
+8220,8628,Arroz Tio João 5Kg,Tio-João,71.15
+2546,8628,Grão de Bico Broto-Legal 2Kg,Broto-Legal,256.2
+1757,8628,Arroz Integral Tio-João 1Kg,Tio-João,32.05
+3199,1053,Assas de Frango Congeladas Sadia 500kg,Sadia,212.3
+1697,1053,Coxa e Sobre-Coxa de Frango Sadia 1Kg,Sadia,216.9
+8196,1053,Peixe San Peter Congelado SoPesca 800g,SoPesca,63.1
+8805,5749,Lasagna Bolognesa Congelada Seara 400Kg,Seara,59.6
+7916,5749,Lasagna Molho Banco Congelada Sadia 350g,Sadia,240.55
+5005,5749,Lasagna Bolonhesa Congelada Seara 400Kg,Seara,254.45
+1944,5749,Lasagna 4 Queijos Congelada Seara 400Kg,Seara,181.05
+2190,181,"Sorvete Chicabon Pote Kibon 1,8L",Kibon,233.65
+2728,181,Pacote de Amendoim M&Ms 100g,M&Ms,57.85
+4551,181,Chiclete Trident Sabor Menta,Trident,13.5
+5612,181,Chiclete Trident Sabor Melancia,Trident,105.95
+3015,181,Chiclete Trident Sabor Tutti-Frutti,Trident,74.35
+3986,181,Bala de Café Arcor 200g,Arcor,202.45
+4048,181,Bala Dentadura Fini 100g,Fini,16.9
+7117,181,Barra de Chocolate Branco Nestle,Nestle,201.25
+7298,181,Chocotone Bauducco Grande,Bauducco,184.8
+4772,181,Chocolate em Pó Nescau 2.0 300g,Nescau,227.05
+6895,181,Chocolate em Pó Ovomaltine 300g,Ovomaltine,116.5
+6706,181,Chocolate em Pó Toddynho 250g,Toddy,166.0
+5598,181,Barra de Chocolate Branck Galak Nestle 170g,Nestle,126.8
+4969,181,Barra de Chocolate ao Leite Lacta 200g,Lacta,48.75
+2289,1248,Sardinha Enlatada Gomes da Costa 150g,Gomes da Costa,140.9
+7676,1248,Atum Enlatado Gomes da Costa 100g,Gomes da Costa,226.4
+5799,5752,Milho Enlatado Fugini 300g,Fugini,154.65
+7789,5752,Sopa de Tomate Campbells,Campbells,12.25
+2859,7026,Doce de Leite Jussara,Jussara,139.95
+7745,7026,Caixa de Leite Desnatado Piracanjuba 1L,Piracanjuba,221.85
+1058,7026,Leite Integral Ninho 1L,Ninho,248.9
+1349,7026,Leite Integral Italac 500ml,Italac,196.5
+3603,7026,Requeijão Tradicional Nestle,Nestle,144.75
+7119,7026,Queijo Muçarela Sadia em Peça 2Kg,Sadia,204.05
+2618,7026,Achocolatado Toddynho Caixinha 180ml,Toddynho,226.3
+5439,7026,Achocolatado Nescau Caixinha 200ml,Nescau,172.25
+3050,7026,Queijo Parmesão Ralado Vigor 120g,Vigor,41.35
+2384,7026,Requeiição Cremoso Danone,Danone,204.75
+5298,7026,Manteiga Aviação sem Sal 200g,Aviação Laticinios,20.35
+7060,7026,Queijo Polenguinho 6 Unidades,Polenghi,183.25
+6510,7026,Queijo Muçarela Sadia em Fatias 150g,Sadia,41.85
+6971,7026,Leite Condensado Moça 405g,Nestle,43.0
+8396,7026,Margarina Diriana com Sal 300g,Doriana,268.85
+4979,7045,Escova de Dente Oral-B,Oral-B,161.85
+4825,7045,Escova de Dente Bitufo,Bitufo,221.7
+2875,7045,Pasta de Dente Oral-B,Oral-B,125.75
+4915,7045,Pasta de Dente Sabor Morango Oral-B,Oral-B,190.2
+2382,7045,Pasta de Dente Sabor Menta Oral-B,Oral-B,87.15
+5254,7045,Papel Higiênico Neve Grande,Neve,272.8
+7415,7045,Papel Higiênico Neve Extra-Grande,Neve,45.3
+5997,7045,Sabonete Dove 6 Unidades,Dove,145.0
+5124,9974,Lustra-Moveis Polifor,Poliflor,30.4
+6127,9974,Bom Bril 1 Unidade,Bom Bril,60.5
+4427,9974,Amaciante de Roupas Ype 2L,Ype,62.7
+8897,9974,Amaciante de Roupas Omo 1.5L,Omo,78.55
+1207,9974,Detergente Ype 400ml,Ype,159.3
+4072,6953,Desentopidor de Pia Diabo Verde,Diabo Verde,232.95
+3864,6953,Água Sanitária Ype,Ype,237.65
+6491,5110,Lampada LED Phillips 30W,Phillips,225.75
+1848,5110,Lampada Neon Phillips 110W,Phillips,126.55
+5816,9802,Mouse com Fio Logitech M100,Logitech,41.95
+6978,9802,Kit Teclado e Mouse sem Fio Logitech MK235,Logitech,263.1
+3450,9705,Pacote de Folha Sulfite HP Pro 500 Folhas,HP,198.75
+7829,9705,Cartucho de Tinta HP,HP,3.5
+7513,9705,Pacote de Canetas Bic 3 Unidades,Bic,132.3
+2096,9705,Conjunto com 32 Canetinhas Coloridas Faber Castell,Faber Castell,230.3
+5281,9705,Lapiseira Pentel 0.7mm,Pentel,47.55
+7509,9705,Aquarela Pentel 12 Cores,Pentel,207.45
+4953,9705,Pasta Multi-Divisória Trident,Trident Papelaria,152.0
+8825,9705,Caderno Universitário 90 Folhas Tilibra,Tilibra,178.75
+4475,9705,Caderno Universitário 6 Matérias Tilibra,Tilibra,189.35
+4505,9705,Caderno Universitário 12 Matérias Tilibra,Tilibra,298.95
+3993,9705,Borracha Pentel Pro,Pentel,87.7
+7664,9406,Maça 1 Unidade,,122.4
+3983,9406,Limão Bugre 1 Unidade,,282.7
+7318,9406,Pera 1 Unidade,,261.1
+3347,9406,Limão Taiti 1 Unidade,,284.0
+6876,9406,Banana Nanica 1 Unidade,,239.3
+4536,9406,Banana Prata 1 Unidade,,54.9
+3804,9406,Banana Maça 1 Unidade,,218.55
+5795,9406,Tomate Italiano 1 Unidade,,280.3
+5366,9406,Tomate 1 Unidade,,53.35
+4354,9406,Meia Melancia 1 Unidade,,275.65
+5856,9406,Melancia Inteira 1 Unidade,,147.85
+4216,9406,Laranja Baiana 1 Unidade,,111.65
+7233,9406,Mamão Papaia 1 Unidade,,92.45
+4596,9406,Abacate 1 Unidade,,164.85
+3926,6867,Cenoura 1 Unidade,,259.9
+6982,6867,Cebola 1 Unidade,,36.5
+6385,6867,Pimentão Verde 1 Unidade,,107.1
+6319,6867,Pimentão Amarelo 1 Unidade,,296.5
+7767,6867,Alcachofra com Casca 1 Unidade,,287.1
+6601,6867,Pimentão Vermelho 1 Unidade,,8.35
+3297,6867,Abobora Inteira 1 Unidade,,260.7
+7963,6867,Abobora em Pedaços 1 Kg,,131.1
+4699,6867,Beterraba 1 Unidade,,210.65
+2078,6867,Batata 1 Unidade,,291.15
+1280,6867,Brocolis Ninja 1 Unidade,,195.5
+6775,8157,Pé de Alface 1 Unidade,,268.75
+4177,8157,Pé de Rucula 1 Unidade,,4.0

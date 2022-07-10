@@ -203,7 +203,7 @@ end
 function main()
 
     !isdir("./out") && mkdir("./out")
-    MAX_REGISTRIES = 500_000
+    MAX_REGISTRIES = 1_000_000
 
     customers = generate_customers(3000)
     CSV.write("./out/customers.csv", customers)
@@ -213,7 +213,7 @@ function main()
     CSV.write("./out/products.csv", products)
     CSV.write("./out/categories.csv", categories)
 
-    monthrange = Date(2019, 1, 1):Month(1):Date(2022, 7, 1)
+    monthrange = Date(2018, 1, 1):Month(1):Date(2022, 7, 1)
 
     purchases = generate_product_customer_interaction(customers, products, monthrange, false)
     purchases = purchases[sample(1:size(purchases, 1), MAX_REGISTRIES, replace = false), :]
