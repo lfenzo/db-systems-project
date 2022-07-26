@@ -8,8 +8,8 @@ SELECT
 	count(DISTINCT p.product_id) AS "n_purchased_products",
 	count(DISTINCT p.product_id)::float /
 		count(DISTINCT r.product_id) AS "mix_adherence"
-FROM recommendation_mat_view AS r
-LEFT JOIN purchase_mat_view AS p
+FROM recommendation_view AS r
+LEFT JOIN purchase_view AS p
 ON r.YEAR = p.YEAR
 	AND p.MONTH = r.MONTH
 	AND r.cpf = p.cpf
@@ -29,14 +29,13 @@ SELECT
 	sum(r.quantity) AS "recommended_volume",
 	sum(p.quantity) AS "purchased_volume",
 	sum(p.quantity)::float / sum(r.quantity) AS "volume_adherence"
-FROM recommendation_mat_view AS r
-FULL OUTER JOIN purchase_mat_view AS p
+FROM recommendation_view AS r
+FULL OUTER JOIN purchase_view AS p
 ON r.YEAR = p.YEAR
 	AND p.MONTH = r.MONTH
 	AND r.cpf = p.cpf
 	AND r.product_id = p.product_id 
 WHERE r.YEAR IN (2019, 2021)
- 	AND r.product_category = 'frutas'
+ 	AND r.product_category ILIKE 'frut%'
 GROUP BY r.YEAR, r.MONTH, r.product_category
 ORDER BY YEAR, MONTH, product_category, volume_adherence DESC
-

@@ -1,4 +1,4 @@
-CREATE MATERIALIZED VIEW purchase_mat_view AS
+CREATE VIEW purchase_view AS
 	SELECT
 		date_part('year', pur."date") AS "year",
 		date_part('month', pur."date") AS "month",
@@ -18,11 +18,10 @@ CREATE MATERIALIZED VIEW purchase_mat_view AS
 	LEFT JOIN customer AS c
 	ON c.cpf = pur.cpf
 	LEFT JOIN category AS cat
-	ON prod.category = cat.id
-WITH DATA;
+	ON prod.category = cat.id;
 
 
-CREATE MATERIALIZED VIEW recommendation_mat_view AS
+CREATE VIEW recommendation_view AS
 	SELECT
 		date_part('year', rec."date") AS "year",
 		date_part('month', rec."date") AS "month",
@@ -41,5 +40,4 @@ CREATE MATERIALIZED VIEW recommendation_mat_view AS
 	LEFT JOIN customer AS c
 	ON c.cpf = rec.cpf
 	LEFT JOIN category AS cat
-	ON prod.category = cat.id
-WITH DATA;
+	ON prod.category = cat.id;
