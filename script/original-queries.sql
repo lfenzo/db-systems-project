@@ -1,4 +1,4 @@
--- consulta 1
+-- origin query 1
 SELECT 
 	r.YEAR,
 	r.MONTH,
@@ -18,10 +18,10 @@ WHERE r.YEAR IN (2022, 2021)
 	AND r.MONTH BETWEEN 5 AND 8
 GROUP BY r.YEAR, r.MONTH, r.salary_range
 HAVING sum(p.quantity) > 0
-ORDER BY r.salary_range, YEAR, MONTH, mix_adherence DESC
+ORDER BY r.salary_range, YEAR, MONTH, mix_adherence DESC;
 
 
--- consulta 2
+-- original query 2
 SELECT 
 	r.YEAR,
 	r.MONTH,
@@ -38,4 +38,4 @@ ON r.YEAR = p.YEAR
 WHERE r.YEAR IN (2019, 2021)
  	AND r.product_category ILIKE 'frut%'
 GROUP BY r.YEAR, r.MONTH, r.product_category
-ORDER BY YEAR, MONTH, product_category, volume_adherence DESC
+ORDER BY YEAR, MONTH, product_category, volume_adherence DESC;
