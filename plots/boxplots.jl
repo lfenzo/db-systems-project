@@ -1,17 +1,28 @@
 using CairoMakie
 using DataFrames
 using Statistics
-using Dictionaries
 
 
-function plot_differences(data::Dictionary; description::String)
+function plot_differences(data::Dict; description::String)
 
     fig = Figure()
     axs = Axis(fig[1, 1])
 
-    for (i, vals) in enumerate(values(data))
-        boxplot!(axs, fill(i, length(vals)), vals, width = 0.75)
+    sorted_plot_keys = ["Original", "Materialized View", "Materialized View + Index"]
+
+    for (i, key) in enumerate(sorted_plot_keys)
+        boxplot!(axs, fill(i, length(data[key])), data[key], width = 0.75)
     end
+
+    speedup_info = calculate_differences([data])
+    speedup = round(abs(speedup_info[1, "diff"]); digits = 1)
+    text = "Antes = $(round(abs(speedup_info[1, "tempo_original"]); digits = 1))\n" *
+        "Depois = $(round(abs(speedup_info[1, "mat_view_mais_indice"]); digits = 1))\n\n" *
+        "Speedup de $speedup%"
+    text!(axs, 3, mean(data["Original"]);
+          text = text,
+          align = (:center, :center),
+          color = :red)
 
     axs.ylabel = "Tempo (ms)"
     axs.xticks = (1:length(keys(data)), collect(keys(data)))
@@ -24,7 +35,7 @@ function plot_differences(data::Dictionary; description::String)
 end
 
 
-function calculate_differences(data)
+function calculate_differences(data::AbstractVector)
     differences = DataFrame(
         :query => [],
         :tempo_original => [],
@@ -48,24 +59,17 @@ end
 
 function main()
 
-    # dicts are constructed this way to preserve the order of the keys, so that
-    # plotting gets the right order of optimization steps
-    query_dict_keys = ["Original", "Materialized View", "Materialized View + Index"]
+    query_1 = Dict(
+        "Original" => [1270.709, 1841.284, 1780.036, 1782.514, 1764.873],
+        "Materialized View" => [653.994, 883.632, 888.926, 976.402, 1000.438],
+        "Materialized View + Index" => [482.830, 445.895, 457.205, 424.219, 611.046],
+    )
 
-    query_1_times = [
-        [1270.709, 1841.284, 1780.036, 1782.514, 1764.873],
-        [653.994, 883.632, 888.926, 976.402, 1000.438],
-        [482.830, 445.895, 457.205, 424.219, 611.046],
-    ]
-
-    query_2_times = [
-        [1295.805, 1044.942, 1828.106, 1433.316, 1298.502],
-        [743.965, 874.685, 792.958, 703.529, 732.856],
-        [352.240, 359.789, 388.097, 352.725, 341.899],
-    ]
-
-    query_1 = Dictionary(query_dict_keys, query_1_times)
-    query_2 = Dictionary(query_dict_keys, query_2_times)
+    query_2 = Dict(
+        "Original" => [1295.805, 1044.942, 1828.106, 1433.316, 1298.502],
+        "Materialized View" => [743.965, 874.685, 792.958, 703.529, 732.856],
+        "Materialized View + Index" => [352.240, 359.789, 388.097, 352.725, 341.899],
+    )
 
     plot_differences(query_1; description = "query_1")
     plot_differences(query_2; description = "query_2")
