@@ -25,7 +25,7 @@ function plot_differences(data::Dict; description::String)
           color = :red)
 
     axs.ylabel = "Tempo (ms)"
-    axs.xticks = (1:length(keys(data)), collect(keys(data)))
+    axs.xticks = (1:length(keys(data)), sorted_plot_keys)
     axs.xgridvisible = false
     axs.yticks = 300:100:1800
     axs.title = "Otimização da " * titlecase(replace(description, "_" => " #")) *
