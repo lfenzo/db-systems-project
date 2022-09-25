@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION public.salary_range_mix_adherence(_year integer, _mon
 		year comparison_table.rec_year%TYPE,
 		month comparison_table.rec_month%TYPE,
 		salary_range comparison_table.rec_salary_range%TYPE,
-		cpf bigint,
+		n_customers bigint,
 		n_recommended_products bigint,
 		n_purchased_products bigint,
 		mix_adherence float
@@ -12,12 +12,15 @@ CREATE OR REPLACE FUNCTION public.salary_range_mix_adherence(_year integer, _mon
 	LANGUAGE plpgsql
 AS $function$
 BEGIN
+	IF $2 >= $3 THEN
+		RAISE EXCEPTION '_month_begin must be stricly smaller than _month_end';
+	END IF;
  	RETURN QUERY EXECUTE '
     	SELECT 
 			rec_year AS "year",
 			rec_month AS "month",
 			rec_salary_range AS "salary_range",
-			count(DISTINCT rec_cpf) AS "cpf",
+			count(DISTINCT rec_cpf) AS "n_customers",
 			count(DISTINCT rec_product_id) AS "n_recommended_products",
 			count(DISTINCT pur_product_id) AS "n_purchased_products",
 			count(DISTINCT pur_product_id)::float /
