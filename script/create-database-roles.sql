@@ -51,3 +51,8 @@ with noinherit;
 GRANT SELECT ON product, category TO guest;
 
 
+ALTER TABLE category OWNER TO administrador;
+ALTER TABLE customer OWNER TO administrador;
+ALTER TABLE product OWNER TO administrador;
+ALTER TABLE purchase OWNER TO administrador;
+ALTER TABLE recommendation OWNER TO administrador;
