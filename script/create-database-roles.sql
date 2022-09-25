@@ -50,9 +50,12 @@ with noinherit;
 
 GRANT SELECT ON product, category TO guest;
 
-
+--
+-- db changes
+--
 ALTER TABLE category OWNER TO administrador;
 ALTER TABLE customer OWNER TO administrador;
 ALTER TABLE product OWNER TO administrador;
 ALTER TABLE purchase OWNER TO administrador;
 ALTER TABLE recommendation OWNER TO administrador;
+alter database postgres OWNER TO administrador;
