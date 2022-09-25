@@ -32,6 +32,20 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO analyst;
 GRANT insert, update, delete ON recommendation TO analyst;
 GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO analyst;
 
+-- customer role
+create role customer
+with noinherit;
+
+grant select on recommendation to customer;
+grant select on product to customer;
+
+-- guest role
+create role guest
+with noinherit;
+
+grant select on product to guest;
+
+
 ALTER TABLE category OWNER TO administrador;
 ALTER TABLE customer OWNER TO administrador;
 ALTER TABLE product OWNER TO administrador;
