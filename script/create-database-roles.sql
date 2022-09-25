@@ -19,6 +19,7 @@ WITH NOINHERIT;
 
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO seller;
 GRANT INSERT, UPDATE, DELETE ON purchase TO seller;
+GRANT INSERT ON customer TO seller;
 
 
 --
@@ -40,6 +41,7 @@ WITH NOINHERIT;
 
 GRANT SELECT ON recommendation_view, purchase_view TO customer;
 GRANT SELECT ON product, category TO customer;
+GRANT UPDATE ON customer TO customer;
 
 
 --
